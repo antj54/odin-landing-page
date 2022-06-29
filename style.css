@@ -3,9 +3,34 @@ body {
 }
 
 
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
 
 
+.aha-logo{
+    justify-self: flex-start;
+    max-width: 75px;
+    max-height: 75px;
+}
 
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px
+}
 
 .top {
     background-color: black;
