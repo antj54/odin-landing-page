@@ -1,7 +1,19 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
 }
 
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+}
 
 .header {
     display: flex;
@@ -28,6 +40,22 @@ body {
     max-height: 75px;
 }
 
+.part-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.part-one-text {
+    max-width: 400px;
+}
+
+.div-hunters {
+    justify-self: center;
+    align-self: flex-end
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -37,13 +65,17 @@ ul {
 .top {
     background-color: black;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 
 img {
     max-width: 150px;
     max-height: 150px;
+    
 }
+
 
 .hunters {
     max-width:600px ;
@@ -56,4 +88,25 @@ a {
 }
 a:hover {
     color: red;
+}
+
+.part-two-head {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 20px ;
+}
+
+.part-two-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
 }
