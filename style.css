@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-content: space-between;
+    align-content: center;
     margin: 0px;
     min-height: 100%;
     width: 100%;
@@ -42,14 +42,23 @@ body {
 
 .part-one {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-start
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 50px;
+    gap: 100px;
 }
 
 .part-one-text {
     max-width: 400px;
+    font-size: 18px;
 }
+
+.part-one-head {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
 
 .div-hunters {
     justify-self: center;
@@ -71,9 +80,8 @@ ul {
 
 
 img {
-    max-width: 150px;
-    max-height: 150px;
-    
+    max-height: 200px;
+    border-radius: 10px;
 }
 
 
@@ -90,13 +98,14 @@ a:hover {
     color: red;
 }
 
+
 .part-two-head {
     display: flex;
     justify-content: center;
     color: black;
     font-size: 36px;
     font-weight: bolder;
-    padding: 20px ;
+    padding: 
 }
 
 .part-two-info {
@@ -109,4 +118,9 @@ a:hover {
     display: flex;
     justify-content: center;
     padding: 8px;
+}
+
+.boss {
+    border: solid;
+    border-radius: 10px;
 }
