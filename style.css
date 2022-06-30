@@ -50,6 +50,7 @@ body {
     gap: 100px;
 }
 
+
 .part-one-text {
     max-width: 400px;
     font-size: 18px;
@@ -77,11 +78,8 @@ ul {
 
 button {
     border-radius: 8px;
-    height: 30px;
-    width: 100px;
-    background-color: #950c09;
-    color: white;
-    border: #950c09;
+    height: 40px;
+    width: 150px;
 }
 
 button:hover {
@@ -95,6 +93,12 @@ button:hover {
     flex-direction: column;
 }
 
+.learn {
+    background-color: #950c09;
+    color: white;
+    border: #950c09;
+    font-size: medium;
+}
 
 img {
     max-height: 200px;
@@ -172,10 +176,27 @@ p {
 
 .part-four {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap:200px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #950c09;
+    font-size: large;
+    font-weight: bold;
 }
 
-.part-four-content {
-
+.subscribe {
+    background-color: white;
+    color: #950c09;
+    border: white;
+    font-size: medium;
 }
+
+.subscribe:hover {
+    background-color:black;
+    color: #950c09;
+}
+
