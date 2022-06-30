@@ -38,6 +38,7 @@ body {
     justify-self: flex-start;
     max-width: 75px;
     max-height: 75px;
+    border: black;
 }
 
 .part-one {
@@ -64,7 +65,8 @@ body {
 
 .div-hunters {
     justify-self: center;
-    align-self: flex-end
+    align-self: flex-end;
+    
 }
 
 ul {
@@ -84,7 +86,6 @@ button {
 
 button:hover {
     background-color: white;
-    color: #950c09;
 }
 
 .top {
@@ -97,22 +98,27 @@ button:hover {
 
 img {
     max-height: 200px;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: solid #950c09
 }
 
 
 .hunters {
     max-width:600px ;
-    max-height: ;
+    border: black;
 }
+
+
 
 a {
     text-decoration: none;
-    color: white; 
+    color: white;
 }
+
 a:hover {
-    color: red;
+    color: #950c09;
 }
+
 
 .part-two-head {
     display: flex;
@@ -133,7 +139,9 @@ a:hover {
     display: flex;
     justify-content: center;
     padding: 8px;
+    color: black;
 }
+
 
 .part-three {
     background-color: #353935;
@@ -150,7 +158,24 @@ p {
     margin-top: 30px;
 }
 
+.quote {
+    font-style: italic;
+    font-size: larger
+}
+
 .sign {
     margin-left: 300px;
     margin-bottom: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.part-four {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.part-four-content {
+
 }
