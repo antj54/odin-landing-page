@@ -86,10 +86,6 @@ button {
     padding: 10px 40px;
 }
 
-button:hover {
-    background-color: white;
-    
-}
 
 .top {
     background-color: black;
@@ -103,16 +99,10 @@ button:hover {
     color: white;
     border: #950c09;
     font-size: medium;
-    margin: 
-}
-
-#learn:hover {
-    background-color: white;
-    color: #950c09;
 }
 
 #bounty {
-margin: 
+    color: white;
 }
 
 img {
@@ -204,16 +194,12 @@ p {
 }
 
 #subscribe {
-    background-color: black;
+    background-color: whitesmoke;
     color: #950c09;
     border: white;
     font-size: medium;
 }
 
-#subscribe:hover {
-    background-color: white;
-    color: #950c09;
-}
 
 #sub {
     color: #950c09;
