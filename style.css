@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     margin: 0px;
     height: 100%;
@@ -78,12 +82,13 @@ ul {
 
 button {
     border-radius: 8px;
-    height: 40px;
-    width: 150px;
+    display: inline-block;
+    padding: 10px 40px;
 }
 
 button:hover {
     background-color: white;
+    
 }
 
 .top {
@@ -93,11 +98,21 @@ button:hover {
     flex-direction: column;
 }
 
-.learn {
+#learn {
     background-color: #950c09;
     color: white;
     border: #950c09;
     font-size: medium;
+    margin: 
+}
+
+#learn:hover {
+    background-color: white;
+    color: #950c09;
+}
+
+#bounty {
+margin: 
 }
 
 img {
@@ -188,18 +203,21 @@ p {
     font-weight: bold;
 }
 
-.subscribe {
-    background-color: white;
+#subscribe {
+    background-color: black;
     color: #950c09;
     border: white;
     font-size: medium;
 }
 
-.subscribe:hover {
-    background-color:black;
+#subscribe:hover {
+    background-color: white;
     color: #950c09;
 }
 
+#sub {
+    color: #950c09;
+}
 .footer {
     display: flex;
     flex-direction: column;
