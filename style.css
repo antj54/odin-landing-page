@@ -173,6 +173,8 @@ a:hover {
     flex-direction: column; 
     flex-wrap: wrap;
     text-align: center;
+    width: 100%;
+    padding: 20px;
 }
 
 p {
@@ -191,7 +193,7 @@ p {
 }
 
 .sign {
-    margin-left: 300px;
+    margin-left: 30%;
     margin-bottom: 30px;
     font-weight: bold;
     font-size: large;
@@ -201,10 +203,10 @@ p {
 
 .part-four {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 2%;
     margin-bottom: 2%;
     gap:200px;
@@ -214,6 +216,7 @@ p {
     font-size: large;
     font-weight: bold;
     box-shadow: 2px 2px black;
+
 }
 
 .part-four-content {
@@ -245,4 +248,26 @@ p {
     color: white;
     font-size: .8rem;
     text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .part-four {
+        margin: 2% auto;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .part-four {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .part-four-content {
+        text-align: center;
+        
+    }
+    
 }
