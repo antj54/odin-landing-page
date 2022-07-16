@@ -281,3 +281,27 @@ p {
     }
     
 }
+
+@media only screen and (max-width: 500px) {
+    .head-text {
+        display: none;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aha-logo {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 403px) {
+    .part-one img {
+        width: 340px;
+    }
+}
