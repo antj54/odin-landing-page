@@ -203,8 +203,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     gap:200px;
     padding: 30px;
     border-radius: 10px;
@@ -212,6 +214,10 @@ p {
     font-size: large;
     font-weight: bold;
     box-shadow: 2px 2px black;
+}
+
+.part-four-content {
+    font-size: 1.2rem;
 }
 
 #subscribe {
