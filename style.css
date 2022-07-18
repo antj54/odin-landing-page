@@ -22,10 +22,12 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     border-bottom: 1px solid #950c09;
     background-color: black;
+    z-index: 1;
 }
 
 .header-left {
@@ -56,6 +58,7 @@ body {
     flex-wrap: wrap;
     margin: 50px;
     gap: 100px;
+    margin-top: 100px;
 }
 
 
@@ -106,6 +109,10 @@ button {
     box-shadow: 2px 2px white;
 }
 
+#learn:hover {
+    opacity: 80%;
+}
+
 #learn:active {
     box-shadow: none;
 }
@@ -134,6 +141,7 @@ a {
 
 a:hover {
     color: #950c09;
+
 }
 
 
@@ -199,7 +207,8 @@ p {
 .quote {
     font-style: italic;
     font-size: 1.3rem;
-    text-shadow: 1px 1px black;
+    font-weight: 600;
+    text-shadow: 2px 1px black;
 }
 
 .sign {
@@ -207,7 +216,7 @@ p {
     margin-bottom: 30px;
     font-weight: bold;
     font-size: large;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 1px black;
     font-size: 1.3rem;
 }
 
@@ -238,7 +247,11 @@ p {
     color: #950c09;
     border: white;
     font-size: medium;
-    box-shadow: 2px 2px #353935;
+    box-shadow: 2px 2px black;
+}
+
+#subscribe:hover {
+    opacity: 80%;
 }
 
 #subscribe:active {
